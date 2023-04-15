@@ -1,0 +1,12 @@
+package reveiw;
+
+public interface interface1
+{
+	//상수 + 메서드껍데기
+	void must1(); //선언만
+	void must2();
+	abstract void must4();	//사실은 이 형태
+	
+	int num = 0; //상수(변경 불가능)
+	final static int num2 = 2; //사실은 이 형태
+}
